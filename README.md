@@ -2,16 +2,17 @@
 
 ![ToDo](https://user-images.githubusercontent.com/66787550/160249041-957d487e-027d-44d2-a81b-b62d8aeeabf7.png).
 
-
+-
 ## Instructions
-1- Fork and clone [this repository](https://github.com/HsnAlwayel/ToDoTask) to your `Development` folder.
-2- We have two files we're gona use in this task [App.js] and [ListItem.js].
-3- in App.js, we will Declare our first State which we will use to capture the input to create a new item.
+-1- Fork and clone [this repository](https://github.com/HsnAlwayel/ToDoTask) to your `Development` folder.
+-2- We have two files we're gona use in this task [App.js] and [ListItem.js].
+
+-3- in App.js, we will Declare our first State which we will use to capture the input to create a new item.
  ```
  const [taskInput, setTaskInput] = useState("");
  
  ```
-4- to capture a new value , we will use `setTaskInput` in our Input element to capture the new value for `taskInput`. 
+-4- to capture a new value , we will use `setTaskInput` in our Input element to capture the new value for `taskInput`. 
   #hint:onChange.
 5- Now that we can capture new task, we have to store it in another state , lets create a new state named `toDoList` with an initial value of an empty array.
 ```
