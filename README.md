@@ -7,7 +7,7 @@
 
 1- Fork and clone [this repository](https://github.com/HsnAlwayel/ToDoTask) to your `Development` folder.
 
-2- We have two files we're gona use in this task [App.js] and [ListItem.js].
+2- We have two files we're going use in this task [App.js] and [ListItem.js].
 
 3- in App.js, we will Declare our first State which we will use to capture the input to create a new item.
  ```
@@ -24,7 +24,7 @@ const [toDoList,setToDoList]=useState([]);
 
 6- Next ,lets create a function named addTask, that will use `setToDoList` to add a new item to our array.
 
-7- Use addTask with our add button to save `taskInput` to `toDoList`.
+7- Use addTask with the add button to save `taskInput` to `toDoList`.
 
 8- Try it out, and verify using [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
 
