@@ -12,7 +12,6 @@
 3- in App.js, we will Declare our first State which we will use to capture the input to create a new item.
  ```
  const [taskInput, setTaskInput] = useState("");
- 
  ```
  
 4- to capture a new value , we will use `setTaskInput` in our Input element to capture the new value for `taskInput`. 
@@ -21,7 +20,6 @@
 5- Now that we can capture new task, we have to store it in another state , lets create a new state named `toDoList` with an initial value of an empty array.
 ```
 const [toDoList,setToDoList]=useState([]);
-
 ```
 
 6- Next ,lets create a function named addTask, that will use `setToDoList` to add a new item to our array.
