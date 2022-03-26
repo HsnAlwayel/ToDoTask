@@ -34,10 +34,8 @@ const [toDoList,setToDoList]=useState([]);
 
 10-in [ListItem.js], use props to display and render each task.
 
-11-Magical tasks are showing in your website ? Bravo , you have the right to smack anyone who says you cant code #Just_Do_it!.
-
-12-Next, lets create a fucktion named deleteTask, that will use `setToDoList` to delete a specific item from our toDoList.
+11-Next, lets create a fucktion named deleteTask, that will use `setToDoList` to delete a specific item from our toDoList.
   #hint: use .filter method to remove an item from our list , then use `setToDoList` to store our modified list .
 
-13-using props ,pass deleteTask to [ListItem.js] and use the button to run it.
+12-using props ,pass deleteTask to [ListItem.js] and use the button to run it.
 
